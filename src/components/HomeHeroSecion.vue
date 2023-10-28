@@ -538,20 +538,12 @@ function searchProducts(searchQuery){
 
             What are you looking for?</span>
         </h1>
-        <!-- <p class="mx-auto mt-10 max-w-md text-base leading-7 text-gray-600">
-          You are in the right place.
-        </p> -->
 
         <div class="mx-auto mt-5 w-screen max-w-screen-md py-20 leading-6">
           <form
             class="relative flex w-full flex-col justify-between rounded-lg border p-2 sm:flex-row sm:items-center sm:p-0">
             <div class="flex">
-              <!-- <label class="focus-within:ring h-14 rounded-md bg-gray-200 px-2 ring-emerald-200" for="category">
-                  <select class="bg-transparent px-6 py-4 outline-none border-none focus:border-none" name="category"
-                    id="category">
-                    <option value="All">All Categories</option>
-                  </select>
-                </label> -->
+            
               <input @keydown="productStore.searchProducts(searchQuery)" v-model="searchQuery" type="name" name="search"
                 class="ml-1 h-14 w-full cursor-text rounded-md border py-4 pl-6 outline-none ring-emerald-200 sm:border-0 sm:pr-40 sm:pl-12 focus:ring"
                 placeholder="Search items here" />
@@ -560,11 +552,6 @@ function searchProducts(searchQuery){
               Search
             </button>
           </form>
-          <!-- <div v-if="productStore.products.length > 0" class="mt-4 divide-y rounded-b-xl border px-2 shadow-lg sm:mr-32 sm:ml-0">
-            <div v-for="(product,index) in productStore.products" :key="index" class="cursor-pointer px-4 py-2 text-gray-600 hover:bg-emerald-400 hover:text-white">
-              <router-link :to="`/product/details/${product.id}`" class="m-0 font-medium">{{ product.title }}</router-link>
-            </div>         
-          </div> -->
         </div>
       </div>
     </div>
