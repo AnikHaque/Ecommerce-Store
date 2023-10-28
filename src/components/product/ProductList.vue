@@ -13,8 +13,6 @@
         <h2 class="text-2xl font-bold sm:text-3xl">
             <slot></slot>
         </h2>
-        <!-- <p class="mt-4 text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus faucibus
-          massa dignissim tempus.</p> -->
       </div>
 
       <div class="grid grid-cols-1 mt-6 gap-4 lg:grid-cols-4 lg:gap-6">
