@@ -68,8 +68,6 @@
             </ul>
           </div>
 
-          <!-- <hr class="mx-0 mt-6 mb-0 h-0 border-r-0 border-b-0 border-l-0 border-t border-solid border-gray-300" /> -->
-
           <div class="mt-6 space-y-3 border-t border-b py-8">
             <div class="flex items-center justify-between">
               <p class="text-gray-400">Subtotal</p>
