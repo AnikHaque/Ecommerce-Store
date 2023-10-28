@@ -19,7 +19,7 @@ defineProps(['product']);
       <img class="object-cover"
         :src="product.thumbnail"
         alt="product image" />
-      <!-- <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">{{ product.discountPercentage }}% OFF</span> -->
+      
       <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">{{ product.brand }}</span>
     </router-link>
 
